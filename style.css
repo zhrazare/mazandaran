@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
 }
-.gallery.halfviewport.site-img { width: 50vw;
-height: 50vw;
+.gallery.halfviewport.site-img { width: 50%;
+height: 50%;
 object-fit: cover;
 display: block;}
