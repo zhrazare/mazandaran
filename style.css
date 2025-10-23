@@ -1,0 +1,8 @@
+.gallery.halfwidth {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery.halfwidth.site.img { width: 50vw;
+height: 50vw;
+object-fit: cover;
+display: block;}
