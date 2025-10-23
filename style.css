@@ -11,14 +11,14 @@ html,body {
 }
 .gallery.halfviewport {
     display: flex;
-    flex-wrap:initial;
+    flex-wrap:wrap;
     justify-content: center;
     align-items: center;
     width: 30vw;
     height: 30vh;
     overflow: hidden;
 }
-.gallery.halfviewport.site-img { width: 50%;
+.gallery.halfviewport.site-img { width: 30%;
 height: 50vh;
 width: 50vw;
 display: block;
