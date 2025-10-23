@@ -3,6 +3,5 @@
     flex-wrap: wrap;
 }
 .gallery.halfviewport.site-img { width: 50%;
-height: 50%;
-object-fit: cover;
+height: auto;
 display: block;}
