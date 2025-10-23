@@ -1,14 +1,4 @@
-* {margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-}
-html,body {
-    height: 30%;
-    background-color: rgb(51, 168, 51);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .gallery.halfviewport {
     display: flex;
     flex-wrap:wrap;
