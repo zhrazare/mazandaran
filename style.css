@@ -4,4 +4,7 @@
 }
 .gallery.halfviewport.site-img { width: 50%;
 height: auto;
-display: block;}
+display: block;
+justify-content: center;
+align-items: center;
+object-fit: cover;}
