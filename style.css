@@ -3,8 +3,8 @@
    box-sizing: border-box;
 }
 html,body {
-    height: 100%;
-    background-color: green;
+    height: 10%;
+    background-color: rgb(224, 230, 224);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,8 +14,8 @@ html,body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    width: 30vw;
+    height: 30vh;
     overflow: hidden;
 }
 .gallery.halfviewport.site-img { width: 50%;
