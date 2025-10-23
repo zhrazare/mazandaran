@@ -1,17 +1,17 @@
-* {margin: 0;
+* {margin: 100;
    padding: 100;
    box-sizing: border-box;
 }
 html,body {
-    height: 10%;
-    background-color: rgb(224, 230, 224);
+    height: 30%;
+    background-color: rgb(51, 168, 51);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .gallery.halfviewport {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:initial;
     justify-content: center;
     align-items: center;
     width: 30vw;
