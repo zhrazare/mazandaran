@@ -1,16 +1,42 @@
-
-.gallery.halfviewport {
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items: center;
-    width: 30vw;
-    height: 30vh;
-    overflow: hidden;
+@font-face {
+    font-family: my font;
+    src: url(vazir-font-v16.1.0/Vazir.ttf);
 }
-.gallery.halfviewport.site-img { width: 30%;
-height: 50vh;
-width: 50vw;
-display: block;
+body {
+    font-family: "Vazir", sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 30px;
+  }
 
-object-fit: cover;}
+  h1 {
+    text-align: center;
+    color: #00796b;
+  }
+
+  img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    width: 70%;
+    max-width: 500px;
+  }
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  iframe {
+    display: block;
+    margin: 30px auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
