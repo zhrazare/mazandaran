@@ -131,7 +131,7 @@ img {
   max-width:30vw;
   height:auto;
   margin-inline:auto;  
-  background-color: #0c5c2d;  /* افقی وسط */
+ /* افقی وسط */
 }
 
 /* اگر میخوای عمودی هم وسط باشه کل صفحه */
@@ -140,7 +140,11 @@ html,body{
   justify-content: center;  /* وسط افقی */
   align-items: center;      /* وسط عمودی */
   flex-direction: column;   /* اگر چند عکس باشه زیر هم */
-}
+  @media (max-width: 600px) 
+     { body, p, h1, h2, h3 
+  
+    }
+  }
 /* فرم اصلی */
 .form_design {
   max-width: 400px;           /* عرض فرم */
