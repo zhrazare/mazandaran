@@ -127,11 +127,13 @@ body {
 /* همه عکس‌ها وسط صفحه */
 img {
   display: block;      /* برای margin auto کار کنه */
-  width: 30vw;     /* نصف صفحه همیشه (responsive واقعی) */
-  max-width:30vw;
+  width: 20vw;     /* نصف صفحه همیشه (responsive واقعی) */
+  max-width:20vw;
   height:auto;
   margin-inline:auto;  
  /* افقی وسط */
+ margin: 0;
+ image-rendering: auto;
 }
 
 /* اگر میخوای عمودی هم وسط باشه کل صفحه */
