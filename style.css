@@ -11,22 +11,16 @@ body {
     margin: 30px;
   }
 
-  h1 {
+ h2 {
     text-align: center;
     color: #00796b;
   }
 
-  img {
-    display: block;
-    margin: 20px auto;
-    border-radius: 15px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
-    width: 70%;
-    max-width: 500px;
-  }
+  
+  
 
   a {
-    color: #007bff;
+    color: #1e8646;
     text-decoration: none;
   }
 
@@ -37,14 +31,189 @@ body {
   iframe {
     display: block;
     margin: 30px auto;
-    border: 2px solid #ccc;
+    border: 2px solid #070807;
     border-radius: 10px;
   }
 .paraph {
-    color: #00796b;
-    background-color: darkorange;
+    color: #090f0f;
+    background-color: rgb(13, 100, 35);
 }
 .text{
     font-size: 24px;
     font-family: myfont;
+}
+:root{
+  --neon1: #428132;
+  --neon2: #0c5c2d;
+}
+
+.luxury-border-3{
+  display:inline-block;
+  border-radius: 16px;
+  padding: 8px;
+  background: transparent;
+  position: relative;
+  transition: transform .28s ease;
+}
+
+.luxury-border-3::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  padding: 2px;
+  background: linear-gradient(120deg, var(--neon1), var(--neon2));
+  filter: blur(6px);
+  z-index: 0;
+  opacity: .95;
+}
+
+.luxury-border-3::after{
+  content: "";
+  position: absolute;
+  inset: 2px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.02);
+  z-index: 1;
+}
+
+
+.luxury-border-3:hover{
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 18px 36px rgba(6,90,70,0.18);
+}
+/* جدول لاکچری */
+.lux-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #fdfdfd;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.lux-table th, .lux-table td {
+  padding: 12px 18px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.lux-table th {
+  background: linear-gradient(135deg, #0b6e50, #14c38b);
+  color: #fff;
+  font-weight: 600;
+}
+ 
+.lux-table tr:nth-child(even) {
+  background-color: #f4fdf9;
+}
+
+.lux-table tr:hover {
+  background-color: #d4f0e2;
+  transition: 0.3s;
+}
+
+.lux-table td {
+  color: #333;
+}
+body {
+  background-image: url('data:image/jpeg;base64,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 ');  
+  background-size: cover;     /* کل صفحه رو بپوشونه */
+  background-position: center;  /* وسط تصویر */
+  background-repeat: no-repeat; /* تکرار نشه */
+  background-attachment: fixed; /* وقتی اسکرول می‌کنیم ثابت بمونه */
+}
+/* همه عکس‌ها وسط صفحه */
+img {
+  display: block;      /* برای margin auto کار کنه */
+  width: 30vw;     /* نصف صفحه همیشه (responsive واقعی) */
+  max-width:30vw;
+  height:auto;
+  margin-inline:auto;  
+  background-color: #0c5c2d;  /* افقی وسط */
+}
+
+/* اگر میخوای عمودی هم وسط باشه کل صفحه */
+html,body{
+  display: flex;
+  justify-content: center;  /* وسط افقی */
+  align-items: center;      /* وسط عمودی */
+  flex-direction: column;   /* اگر چند عکس باشه زیر هم */
+}
+/* فرم اصلی */
+.form_design {
+  max-width: 400px;           /* عرض فرم */
+  margin: 40px auto;          /* وسط صفحه */
+  padding: 25px 30px;
+  background: linear-gradient(135deg, #0b6e50, #14c38b);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+/* تیتر فرم */
+.form_design h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* اینپوت‌ها و select */
+.form_design input[type="email"],
+.form_design input[type="text"],
+.form_design select {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.form_design input[type="email"]:focus,
+.form_design input[type="text"]:focus,
+.form_design select:focus {
+  background: rgba(255,255,255,0.2);
+  box-shadow: 0 0 8px #00ffd1;
+}
+
+/* دکمه ارسال */
+.form_design button {
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  border-radius: 10px;
+  background: #00ffd1;
+  color: #0b6e50;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form_design button:hover {
+  background: #0b6e50;
+  color: #00ffd1;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* عکس داخل فرم */
+.form_design img {
+  display: block;
+  max-width: 120px;
+  margin: 0 auto 20px auto;
+  border-radius: 50%;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+/* متن‌های کمکی یا لِیبل */
+.form_design label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
 }
