@@ -127,8 +127,8 @@ body {
 /* همه عکس‌ها وسط صفحه */
 img {
   display: block;      /* برای margin auto کار کنه */
-  width: 20vw;     /* نصف صفحه همیشه (responsive واقعی) */
-  max-width:20vw;
+  width: 30vw;     /* نصف صفحه همیشه (responsive واقعی) */
+  max-width:30vw;
   height:auto;
   margin-inline:auto;  
  /* افقی وسط */
